@@ -1,21 +1,13 @@
-﻿{
+{
   "name": "devmind-auth-backend",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "type": "module",
-  "description": "Production-style OAuth broker for DevMind Studio desktop auth.",
-  "scripts": {
-    "dev": "vercel dev",
-    "start": "vercel dev"
-  },
+  "description": "OAuth broker for DevMind Studio",
   "dependencies": {
-    "@vercel/kv": "^2.0.0",
-    "cookie": "^0.6.0"
-  },
-  "devDependencies": {
-    "vercel": "^34.0.0"
+    "@vercel/kv": "^2.0.0"
   },
   "engines": {
-    "node": ">=18"
+    "node": ">=20"
   }
 }
