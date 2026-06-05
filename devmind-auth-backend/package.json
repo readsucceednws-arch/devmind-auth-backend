@@ -1,0 +1,10 @@
+{
+  "name": "devmind-auth-backend",
+  "version": "1.0.2",
+  "private": true,
+  "type": "module",
+  "description": "Stateless OAuth broker for DevMind Studio",
+  "engines": {
+    "node": ">=20"
+  }
+}
